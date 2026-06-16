@@ -1,0 +1,11 @@
+# Cloudflare Wrangler files
+.dev.vars
+.wrangler/
+dist/
+
+# Dependency directories (si alguna vez se usan)
+node_modules/
+
+# OS/System files
+.DS_Store
+Thumbs.db

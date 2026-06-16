@@ -1,0 +1,11 @@
+name = "proyectoingolte"
+main = "src/index.js"
+compatibility_date = "2026-05-03"
+
+# Variables de entorno públicas
+[vars]
+# SUPABASE_URL = "https://your-project-id.supabase.co"
+
+# Las variables secretas como SUPABASE_ANON_KEY o claves privadas
+# deben subirse con `wrangler secret put SUPABASE_ANON_KEY`
+# o ponerse localmente en un archivo `.dev.vars` para desarrollo local.

@@ -1,0 +1,5 @@
+# Variables de entorno para desarrollo local (Wrangler dev)
+# Copia este archivo a `.dev.vars` (ya ignorado en .gitignore) y completa con tus credenciales.
+
+SUPABASE_URL="https://tu-proyecto.supabase.co"
+SUPABASE_ANON_KEY="tu-anon-key-de-supabase"
