@@ -171,7 +171,7 @@ function getFormularioHTML() {
   <style>
     :root {
       --bg: #090b11;
-      --card-bg: rgba(17, 22, 34, 0.7);
+      --card-bg: #111625; /* Fondo sólido oscuro para evitar parpadeos en Android Chrome */
       --card-border: rgba(255, 255, 255, 0.08);
       --accent: #10b981;
       --accent-rgb: 16, 185, 129;
@@ -196,6 +196,7 @@ function getFormularioHTML() {
       background-color: var(--bg);
       background-image: radial-gradient(circle at 50% 20%, #131b2e 0%, var(--bg) 100%);
       color: var(--text-main);
+      min-height: 100vh;
       min-height: 100dvh;
       display: flex;
       flex-direction: column;
@@ -277,12 +278,10 @@ function getFormularioHTML() {
       grid-area: 1 / 1 / 2 / 2;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
       border-radius: 24px;
       padding: 2rem 1.5rem;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-      display: flex;
+      display: none; /* Ocultar físicamente por defecto */
       flex-direction: column;
       justify-content: space-between;
       gap: 1.5rem;
@@ -290,9 +289,13 @@ function getFormularioHTML() {
       pointer-events: none;
       transform: scale(0.95) translateY(20px);
       transition: border-color 0.3s;
+      will-change: transform, opacity;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
     }
 
     .step-card.active {
+      display: flex !important; /* Mostrar físicamente solo la tarjeta activa */
       opacity: 1;
       pointer-events: auto;
       transform: scale(1) translateY(0);
@@ -1766,8 +1769,10 @@ function getFormularioHTML() {
         ease: "power2.inOut",
         onComplete: () => {
           currentCard.classList.remove('active');
+          currentCard.style.display = 'none'; // Ocultar físicamente para liberar memoria GPU
           
           // Establecer estado inicial de la tarjeta entrante
+          targetCard.style.display = 'flex'; // Mostrar físicamente antes de animar
           targetCard.classList.add('active');
           gsap.set(targetCard, { x: xIn, opacity: 0, scale: 0.95, rotation: rotateIn });
           
@@ -2033,6 +2038,9 @@ function getFormularioHTML() {
                 ease: "power2.in",
                 onComplete: () => {
                   currentCard.classList.remove('active');
+                  currentCard.style.display = 'none'; // Ocultar resumen
+                  
+                  successCard.style.display = 'flex'; // Mostrar éxito
                   successCard.classList.add('active');
                   
                   // Ocultar barra de progreso
