@@ -1,0 +1,203 @@
+Formulario de Diagnóstico: Adopción y Madurez en Inteligencia Artificial – INGOLTE S.A.
+
+Introducción sugerida para el formulario:
+
+    En INGOLTE S.A. estamos evolucionando. Queremos conocer cómo interactúas con la tecnología hoy para brindarte las mejores herramientas y potenciar tu día a día en la administración y gestión con nuestros asociados. Tus respuestas nos ayudarán a diseñar un programa de innovación a tu medida. No hay respuestas correctas o incorrectas.
+
+Bloque 1: Perfil Operativo y Entorno de Trabajo
+
+Objetivo: Identificar la modalidad de trabajo del colaborador y el tipo de dispositivos que utiliza para mapear cómo la IA debe integrarse en su flujo real de trabajo (escritorio vs. movilidad).
+
+    Nombre completo y/o Número de Identificación
+
+        Tipo de respuesta: Texto corto.
+
+    ¿Cuál de las siguientes opciones describe mejor tu dinámica de trabajo diario en INGOLTE? (Pregunta de ramificación)
+
+        Tipo de respuesta: Selección única.
+
+        [ ] 100% Oficina: Trabajo principalmente frente al computador gestionando inversiones, soporte o temas administrativos. (Redirige a pregunta 13A)
+
+        [ ] Híbrido: Divido mi tiempo entre la oficina (computador) y reuniones/gestiones externas con asociados (celular/tablet). (Redirige a pregunta 13B)
+
+        [ ] Trabajo de Campo/Externo: Mi labor es principalmente en la calle con los asociados, mi principal herramienta es el celular. (Redirige a pregunta 13C)
+
+    ¿Qué dispositivos utilizas habitualmente para desempeñar tus funciones?
+
+        Tipo de respuesta: Selección múltiple.
+
+        [ ] Computador de escritorio/Portátil corporativo
+
+        [ ] Computador personal
+
+        [ ] Teléfono celular corporativo
+
+        [ ] Teléfono celular personal
+
+    ¿Con qué tipo de información interactúas con mayor frecuencia en tu día a día?
+
+        Tipo de respuesta: Selección múltiple.
+
+        [ ] Datos financieros y portafolios de inversión de los asociados.
+
+        [ ] Documentación legal, contratos y firmas.
+
+        [ ] Correos electrónicos y atención general a clientes/asociados.
+
+        [ ] Bases de datos internas y contabilidad.
+
+    ¿Qué tan dependiente es tu trabajo actual del manejo de documentos físicos (papel)?
+
+        Tipo de respuesta: Escala Likert (1 al 5, donde 1 es "Nada dependiente, todo es digital" y 5 es "Totalmente dependiente").
+
+Bloque 2: Conocimiento y Uso Actual de Inteligencia Artificial (2026)
+
+Objetivo: Medir el estado actual de adopción de herramientas del mercado, identificando si ya existen "early adopters" (usuarios pioneros) o si se requiere alfabetización digital desde cero.
+
+    ¿Cómo calificarías tu nivel de conocimiento actual sobre Inteligencia Artificial Generativa?
+
+        Tipo de respuesta: Escala Likert (1 al 5, donde 1 es "No sé nada" y 5 es "La entiendo y la aplico constantemente").
+
+    Durante el último mes, ¿cuáles de las siguientes herramientas has utilizado, ya sea para fines personales o laborales?
+
+        Tipo de respuesta: Selección múltiple.
+
+        [ ] ChatGPT (OpenAI)
+
+        [ ] Microsoft Copilot
+
+        [ ] Gemini (Google)
+
+        [ ] Claude (Anthropic)
+
+        [ ] Perplexity AI
+
+        [ ] NotebookLM (Para análisis de documentos)
+
+        [ ] Asistentes de transcripción en reuniones (Ej. Fireflies, Otter, asistentes de Teams/Meet)
+
+        [ ] Ninguna de las anteriores.
+
+    ¿Con qué frecuencia utilizas herramientas de Inteligencia Artificial en tu día a día?
+
+        Tipo de respuesta: Selección única.
+
+        [ ] Todos los días.
+
+        [ ] Varias veces a la semana.
+
+        [ ] Rara vez (1 o 2 veces al mes).
+
+        [ ] Nunca las he utilizado.
+
+    Cuando has utilizado estas herramientas, ¿desde qué dispositivo lo haces principalmente?
+
+        Tipo de respuesta: Selección única.
+
+        [ ] Exclusivamente desde mi computador (oficina/casa).
+
+        [ ] Principalmente desde mi celular (aplicaciones móviles).
+
+        [ ] De forma mixta (computador y celular).
+
+        [ ] No aplica (no las uso).
+
+    ¿Has utilizado alguna de estas herramientas para realizar una tarea específica de INGOLTE S.A.?
+
+        Tipo de respuesta: Selección única.
+
+        [ ] Sí, me ahorró mucho tiempo.
+
+        [ ] Sí, pero el resultado no fue lo que esperaba.
+
+        [ ] No, no sé cómo aplicarlo a mi trabajo.
+
+        [ ] No, me preocupa infringir normas de la empresa.
+
+Bloque 3: Aplicación Práctica y Percepción de Valor
+
+Objetivo: Identificar los casos de uso más urgentes y evaluar la fricción operativa que la IA podría resolver.
+
+    ¿En qué tareas consideras que la IA podría ahorrarte más tiempo hoy en día?
+
+        Tipo de respuesta: Selección múltiple (Máximo 3).
+
+        [ ] Redactar correos, comunicados o respuestas a asociados.
+
+        [ ] Resumir documentos extensos, contratos o actas de reuniones.
+
+        [ ] Analizar datos financieros, cotizaciones o cruzar bases de Excel.
+
+        [ ] Buscar información rápida sobre procedimientos internos de INGOLTE.
+
+        [ ] Organizar mi agenda y recordatorios de seguimiento con asociados.
+
+    Del 1 al 5, ¿cuánto impacto positivo crees que tendría la Inteligencia Artificial en tu productividad diaria?
+
+        Tipo de respuesta: Escala Likert (1 = Ninguno, 5 = Transformaría mi forma de trabajar).
+
+    PREGUNTA RAMIFICADA (Depende de la respuesta a la pregunta 2):
+
+        13A (Para Perfil Oficina): ¿Aproximadamente cuántas horas a la semana dedicas exclusivamente a buscar datos específicos dentro de documentos, contratos o reportes financieros? (Selección única: Menos de 2h / Entre 2h y 5h / Más de 5h)
+
+        13B (Para Perfil Híbrido): ¿Cuál es tu mayor reto al alternar entre la oficina y el trabajo externo con asociados? (Selección única: Mantener la información sincronizada / Responder rápido cuando estoy en la calle / Tomar notas en movimiento)
+
+        13C (Para Perfil Campo/Externo): ¿Qué tanta dificultad tienes para registrar la información de una visita o consultar datos de un asociado cuando estás fuera de la oficina usando solo tu celular? (Escala Likert: 1 = Muy fácil, 5 = Muy difícil y frustrante)
+
+    Pensando en la gestión con nuestros asociados, ¿qué aspecto valoran ellos más de tu atención?
+
+        Tipo de respuesta: Selección única. (Ej. Rapidez de respuesta, Precisión de los datos, Trato personalizado, Claridad en la información).
+
+    Brevemente, si pudieras tener un "asistente virtual" en INGOLTE, ¿qué tarea repetitiva y aburrida le delegarías para siempre?
+
+        Tipo de respuesta: Texto largo (Pregunta abierta).
+
+Bloque 4: Riesgos, Privacidad y Barreras de Adopción
+
+Objetivo: Medir el nivel de conciencia sobre ciberseguridad, privacidad de datos financieros y la resistencia psicológica al cambio.
+
+    Si una Inteligencia Artificial te genera un informe o respuesta, ¿qué nivel de confianza tendrías en enviar esa información a un asociado sin revisarla?
+
+        Tipo de respuesta: Selección única.
+
+        [ ] Confianza total, la enviaría directo.
+
+        [ ] Confianza parcial, le daría una lectura rápida.
+
+        [ ] Poca confianza, revisaría cada dato cuidadosamente.
+
+        [ ] Ninguna confianza, prefiero hacerlo yo mismo.
+
+    Dado que en INGOLTE manejamos inversiones y acciones, ¿cuál es tu mayor preocupación al usar herramientas de IA?
+
+        Tipo de respuesta: Selección múltiple.
+
+        [ ] Filtrar por error información confidencial de nuestros asociados.
+
+        [ ] Que la IA invente datos financieros (alucinaciones) y cometa un error legal.
+
+        [ ] Perder el toque humano en el trato con el asociado.
+
+        [ ] Que estas herramientas terminen reemplazando mi labor.
+
+        [ ] No tengo ninguna preocupación.
+
+    ¿Conoces los riesgos de subir documentos internos o correos corporativos a herramientas públicas como la versión gratuita de ChatGPT?
+
+        Tipo de respuesta: Selección única (Sí, los entiendo / He escuchado algo pero no estoy seguro / No conocía que existiera un riesgo).
+
+    ¿Cuál consideras que es la barrera más grande que tienes hoy para aprovechar mejor las herramientas digitales en INGOLTE?
+
+        Tipo de respuesta: Selección única.
+
+        [ ] Falta de capacitación formal.
+
+        [ ] Falta de tiempo para aprender a usarlas.
+
+        [ ] Limitaciones en los equipos de la empresa (PC lento, restricciones de red).
+
+        [ ] Miedo a cometer errores.
+
+    ¿Sientes que cuentas con el respaldo de tus líderes para experimentar con nuevas formas de trabajar y automatizar tareas?
+
+        Tipo de respuesta: Escala Likert (1 = Nada de respaldo, 5 = Respaldo total).
